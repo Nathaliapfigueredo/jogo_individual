@@ -10,16 +10,16 @@ export class WelcomeScene extends Phaser.Scene {
 
     preload() {
         //carrega as imagens usadas na cena
-        this.load.image("paisagem", "../assets/paisagem.png");
-        this.load.image("laboratorio", "../assets/laboratorio.png");
-        this.load.image("grace", "../assets/grace.png");
-        this.load.image("descricao", "../assets/descricao.png");
-        this.load.image("objetivo", "../assets/objetivo.png");
-        this.load.image("titulo", "../assets/missao_ciencia.png");
-        this.load.image("play", "../assets/botao_play.png");
-        this.load.image("controles", "../assets/controles.png");
-        this.load.image("controlesImagem", "../assets/controles_imagem.png");
-        this.load.image("fechar", "../assets/fechar.png");
+        this.load.image("paisagem", "./assets/paisagem.png");
+        this.load.image("laboratorio", "./assets/laboratorio.png");
+        this.load.image("grace", "./assets/grace.png");
+        this.load.image("descricao", "./assets/descricao.png");
+        this.load.image("objetivo", "./assets/objetivo.png");
+        this.load.image("titulo", "./assets/missao_ciencia.png");
+        this.load.image("play", "./assets/botao_play.png");
+        this.load.image("controles", "./assets/controles.png");
+        this.load.image("controlesImagem", "./assets/controles_imagem.png");
+        this.load.image("fechar", "./assets/fechar.png");
     }
 
     create() {
