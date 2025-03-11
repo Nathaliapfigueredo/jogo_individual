@@ -10,12 +10,12 @@ export class GameScene extends Phaser.Scene {
     }
 
     preload() {
-        this.load.image("paisagem", "../assets/fundo2.png");
-        this.load.image("plataforma", "../assets/plataforma.png");
-        this.load.spritesheet("cientista", "../assets/spritesheet.png", { frameWidth: 72, frameHeight: 100 });
-        this.load.audio("musicaFundo", "../assets/musica.mp3");
-        this.load.image("cura", "../assets/cura.png");
-        this.load.image("virus", "../assets/virus.png");
+        this.load.image("paisagem", "./assets/fundo2.png");
+        this.load.image("plataforma", "./assets/plataforma.png");
+        this.load.spritesheet("cientista", "./assets/spritesheet.png", { frameWidth: 72, frameHeight: 100 });
+        this.load.audio("musicaFundo", "./assets/musica.mp3");
+        this.load.image("cura", "./assets/cura.png");
+        this.load.image("virus", "./assets/virus.png");
     }
 
     create() {
